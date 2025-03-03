@@ -25,4 +25,3 @@ Finally, you can run(any of these):
 
 [c]syscam_recognition.py
 
-This ensures everything is set up correctly before processing videos in real time.
