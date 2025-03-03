@@ -10,13 +10,14 @@ Microsoft Visual C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-
 
 Create an output folder for storing results and a video folder for input videos. Then, follow these steps in order:
 
-1. Run modeltraining.py to train the model.
+[i] Run modeltraining.py to train the model.
 
-2. Run face_recognition_system.py to initialize the recognition system.
+[ii] Run face_recognition_system.py to initialize the recognition system.
 
 Execute gputest.py to verify if the GPU is activated.
 
 Finally, you can run(any of these):
+
 [a]input_video.py
 
 [b]realtime_processing.py
