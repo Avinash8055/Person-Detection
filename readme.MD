@@ -2,6 +2,7 @@ System Dependencies (Non-Python)
 Ensure these are installed before running the project:
 
 Microsoft Visual C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
 Windows 11 SDK, MSVC v142 (or v143) C++ Build tools, CMake tools for Windows: https://cmake.org/download/
 
 Create an output folder for storing results and a video folder for input videos. Then, follow these steps in order:
