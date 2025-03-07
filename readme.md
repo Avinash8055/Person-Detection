@@ -7,9 +7,13 @@ Windows 11 SDK, MSVC v142 (or v143) C++ Build tools, CMake tools for Windows: ht
 
 Create an output folder for storing results and a video folder for input videos. Then, follow these steps in order:
 
-1. Run modeltraining.py to train the model.
+1. Run 
+'''sh
+modeltraining.py
+'''
+to train the model.
 
-2. Run face_recognition_system.py to initialize the recognition system.
+3. Run face_recognition_system.py to initialize the recognition system.
 
 Execute gputest.py to verify if the GPU is activated.
 
