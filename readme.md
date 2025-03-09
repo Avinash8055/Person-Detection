@@ -16,96 +16,49 @@ Before running the project, ensure the following dependencies are installed:
     5. Click **Modify** to install the required components.  
 
 ### 📂 **Folder Setup**  
-Before proceeding, create the following directories:  
-- **`output/`** → For storing results  
-- **`video/`** → For input videos  
-
-## 📂 Folder Setup  
 Before proceeding, clone the repository and create the necessary directories:  
 
 ### 🔹 **Clone the Repository**  
 ```bash
 git clone https://github.com/yourusername/yourproject.git
 cd yourproject
-🔹 Create Required Folders
-bash
-Copy
-Edit
-mkdir output video known_faces
-output/ → Stores processed results.
-video/ → Holds input video files.
-known_faces/ → Add images of known individuals here before running the recognition system.
-🚀 Running the Project
-🔹 Step 1: Train the Model
-bash
-Copy
-Edit
+```
+
+- **`output/`** → For storing results  
+- **`video/`** → For input videos  
+- **`known_faces/`** → Add images of known individuals here before running the recognition system.
+
+### 🚀 ** Running the Project** 
+
+🔹 **Step 1: Train the Model**
+```sh
 python modeltraining.py
-🔹 Step 2: Add Known Faces
+```
+**🔹 Step 2: Add Known Faces**
 Before running the face recognition system, add images of known individuals inside the known_faces/ folder. This ensures the system can identify them during recognition.
 
-🔹 Step 3: Initialize the Recognition System
-bash
-Copy
-Edit
+**🔹 Step 3: Initialize the Recognition System**
+```sh
 python face_recognition_system.py
-🔹 Step 4: Verify GPU Activation (Optional but Recommended)
-bash
-Copy
-Edit
+```
+**🔹 Step 4: Verify GPU Activation (Optional but Recommended)**
+```sh
 python gputest.py
-🔹 Step 5: Run the Recognition System
+```
+**🔹 Step 5: Run the Recognition System**
 You can run any of the following based on your use case:
 
 For video input:
-bash
-Copy
-Edit
+```sh
 python input_video.py
+```
 For real-time processing:
-bash
-Copy
-Edit
+```sh
 python realtime_processing.py
+```
 For system camera recognition:
-bash
-Copy
-Edit
+```sh
 python syscam_recognition.py
-sql
-Copy
-Edit
-
-This keeps everything **structured and formatted correctly** in Markdown. Just copy-paste it into your README, and it will render properly! 🚀
-
-**Run** 
-  ```sh
-  modeltraining.py 
-   ```
-to train the model.
-
-**Run**
-  ```sh
-face_recognition_system.py
-   ```
-to initialize the recognition system.
-
-**Execute** 
-  ```sh
-gputest.py
-   ```
-to verify if the GPU is activated.
-
-**Finally, you can run(any of these):**
-
-  ```sh
-input_video.py
-   ```
-  ```sh
-realtime_processing.py
-   ```
-  ```sh
-syscam_recognition.py
-   ```
+```
 
 
