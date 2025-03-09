@@ -30,6 +30,14 @@ cd yourproject
 
 ### 🚀 **Running the Project** 
 
+🔹 **Step 0: Install Dependencies**  
+
+Before running the project, install the required Python packages:  
+
+```bash
+pip install -r requirements.txt
+```
+
 🔹 **Step 1: Train the Model**
 ```sh
 python modeltraining.py
