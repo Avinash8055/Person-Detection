@@ -20,7 +20,7 @@ Before proceeding, clone the repository and create the necessary directories:
 
 ### 🔹 **Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/Avinash8055/Person-Detection.git
 cd person_detection
 ```
 
