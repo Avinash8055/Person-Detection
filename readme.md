@@ -21,7 +21,7 @@ Before proceeding, clone the repository and create the necessary directories:
 ### 🔹 **Clone the Repository**  
 ```bash
 git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+cd person_detection
 ```
 
 - **`output/`** → For storing results  
