@@ -28,13 +28,14 @@ cd yourproject
 - **`video/`** → For input videos  
 - **`known_faces/`** → Add images of known individuals here before running the recognition system.
 
-### 🚀 ** Running the Project** 
+### 🚀 **Running the Project** 
 
 🔹 **Step 1: Train the Model**
 ```sh
 python modeltraining.py
 ```
 **🔹 Step 2: Add Known Faces**
+
 Before running the face recognition system, add images of known individuals inside the known_faces/ folder. This ensures the system can identify them during recognition.
 
 **🔹 Step 3: Initialize the Recognition System**
@@ -46,6 +47,7 @@ python face_recognition_system.py
 python gputest.py
 ```
 **🔹 Step 5: Run the Recognition System**
+
 You can run any of the following based on your use case:
 
 For video input:
