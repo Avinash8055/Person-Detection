@@ -1,3 +1,5 @@
+# 🚶‍♂️ Person Detection System
+
 ## ⚙️ System Dependencies (Non-Python)  
 
 Before running the project, ensure the following dependencies are installed:  
