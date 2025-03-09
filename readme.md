@@ -1,25 +1,32 @@
-System Dependencies (Non-Python)
-Ensure these are installed before running the project:
+## ⚙️ System Dependencies (Non-Python)  
 
-Microsoft Visual C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+Before running the project, ensure the following dependencies are installed:  
 
-Windows 11 SDK, MSVC v142 (or v143) C++ Build tools, CMake tools for Windows: https://cmake.org/download/
+### 🔧 **Required Tools**  
+- **[Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)**  
+- **[Windows 11 SDK, MSVC v142 (or v143) C++ Build Tools, CMake Tools for Windows](https://cmake.org/download/)**  
 
-Create an output folder for storing results and a video folder for input videos. Then, follow these steps in order:
+### 📂 **Folder Setup**  
+Before proceeding, create the following directories:  
+- **`output/`** → For storing results  
+- **`video/`** → For input videos  
 
-Run 
+Once everything is set up, follow these steps **in order** to ensure a smooth workflow. 🚀  
+
+
+**Run** 
   ```sh
   modeltraining.py 
    ```
 to train the model.
 
-Run
+**Run**
   ```sh
 face_recognition_system.py
    ```
 to initialize the recognition system.
 
-Execute 
+**Execute** 
   ```sh
 gputest.py
    ```
