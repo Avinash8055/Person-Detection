@@ -32,7 +32,7 @@ gputest.py
    ```
 to verify if the GPU is activated.
 
-Finally, you can run(any of these):
+**Finally, you can run(any of these):**
 
   ```sh
 input_video.py
