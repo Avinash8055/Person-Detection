@@ -4,7 +4,16 @@ Before running the project, ensure the following dependencies are installed:
 
 ### 🔧 **Required Tools**  
 - **[Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)**  
-- **[Windows 11 SDK, MSVC v142 (or v143) C++ Build Tools, CMake Tools for Windows](https://cmake.org/download/)**  
+- **Windows 11 SDK, MSVC v142 (or v143) C++ Build Tools, CMake Tools for Windows**  
+  - These can be installed via the **Visual Studio Installer**:  
+    1. Open **Visual Studio Installer** (Download from [here](https://visualstudio.microsoft.com/downloads/) if not installed).  
+    2. Select **Modify** on your installed version of Visual Studio.  
+    3. Under **Workloads**, choose **Desktop development with C++**.  
+    4. In the **Individual Components** tab, ensure the following are checked:  
+       - **Windows 11 SDK**  
+       - **MSVC v142 (or v143) C++ Build Tools**  
+       - **CMake Tools for Windows**  
+    5. Click **Modify** to install the required components.  
 
 ### 📂 **Folder Setup**  
 Before proceeding, create the following directories:  
@@ -12,6 +21,7 @@ Before proceeding, create the following directories:
 - **`video/`** → For input videos  
 
 Once everything is set up, follow these steps **in order** to ensure a smooth workflow. 🚀  
+
 
 
 **Run** 
