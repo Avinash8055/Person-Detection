@@ -16,7 +16,7 @@ Before running the project, ensure the following dependencies are installed:
     5. Click **Modify** to install the required components.  
 
 ### 📂 **Folder Setup**  
-Before proceeding, clone the repository and create the necessary directories:  
+Clone the repository and create the necessary directories:  
 
 ### 🔹 **Clone the Repository**  
 ```bash
