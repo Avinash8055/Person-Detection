@@ -30,6 +30,9 @@ cd person_detection
 - **`video/`** → For input videos  
 - **`known_faces/`** → Add images of known individuals here before running the recognition system.
 
+## 🎬 **Model Demo** 
+https://github.com/user-attachments/assets/617a624d-dd1e-4a17-9338-1739f3c9a4b0
+
 ### 🚀 **Running the Project** 
 
 🔹 **Step 0: Install Dependencies**  
